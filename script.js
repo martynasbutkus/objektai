@@ -23,7 +23,7 @@ function display(car){
     carDiv.className = 'car'
     carDiv.innerHTML = `
     <img src="${car.image}">
-    <p>${car.brand} ${car.model}</p>
+    <p id="update">${car.brand} ${car.model}</p>
     <p>Miliu: ${car.mile}</p>
     <p>Kaina: ${car.price} $</p>
     `

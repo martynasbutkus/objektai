@@ -17,6 +17,8 @@ form {
 input{
     margin-right: 5px;
     margin-top: 5px;
+    padding: 3px;
+    outline: none;
 }
 #list{
     display: flex;
@@ -28,13 +30,19 @@ input{
     width: 300px;
     border-radius: 10px 10px 0 0;
 }
-.car{
+.car {
     margin: 10px;
     border: 1px solid rgb(255, 251, 251);
     background-color: rgb(134, 115, 7);
     border-radius: 10px 10px 0 0;
+    box-shadow: rgba(255, 255, 255, 0.12) 0px 2px 4px 0, rgba(255, 255, 255, 0.32) 0px 2px 16px 0;
 }
 .car p{
     color: white;
     padding: 5px;
+}
+#update{
+    text-align: center;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
 }
