@@ -1,7 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 form {
     margin: 10px;
 }
 input{
     margin-right: 5px;
     margin-top: 5px;
+}
+.car img{
+    width: 300px;
 }
