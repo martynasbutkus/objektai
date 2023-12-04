@@ -25,7 +25,7 @@ function display(car){
     <img src="${car.image}">
     <p>${car.brand} ${car.model}</p>
     <p>Miliu: ${car.mile}</p>
-    <p>Kaina: ${car.price}</p>
+    <p>Kaina: ${car.price} $</p>
     `
   
     carDiv.addEventListener('click', function () {
