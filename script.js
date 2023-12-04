@@ -32,4 +32,10 @@ function display(car){
         alert(`Kaina: ${car.price}`)
     })
     list.appendChild(carDiv)
+
+    brand.value = ''
+    model.value = ''
+    mile.value = ''
+    price.value= ''
+    image.value = ''
 }
