@@ -8,7 +8,11 @@ body{
     background-color: black;
 }
 form {
+    display: flex;
+    flex-wrap: wrap;
     margin: 10px;
+    align-items: center;
+    justify-content: center;
 }
 input{
     margin-right: 5px;
@@ -17,6 +21,8 @@ input{
 #list{
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 .car img{
     width: 300px;
