@@ -14,11 +14,18 @@ form {
     align-items: center;
     justify-content: center;
 }
+button {
+    padding: 4px;
+    margin-top: 6px;
+    background-color: gold;
+    color: black;
+}
 input{
     margin-right: 5px;
     margin-top: 5px;
     padding: 3px;
     outline: none;
+    height: 30px;
 }
 #list{
     display: flex;
@@ -32,10 +39,10 @@ input{
 }
 .car {
     margin: 10px;
-    border: 1px solid rgb(255, 251, 251);
+    border: 1px solid gold;
     background-color: rgb(134, 115, 7);
     border-radius: 10px 10px 0 0;
-    box-shadow: rgba(255, 255, 255, 0.12) 0px 2px 4px 0, rgba(255, 255, 255, 0.32) 0px 2px 16px 0;
+    box-shadow: rgba(255, 255, 255, 0.12) 2px 4px 0, rgba(255, 255, 255, 0.32) 0px 2px 16px 0;
 }
 .car p{
     color: white;
